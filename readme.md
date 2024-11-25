@@ -1,6 +1,6 @@
 ## GIS Analyst Labs:
 
--- Each lab is in a separate folder and has its own readme.md file with instructions.
+-- Each lab is in a separate module and has its own readme.md file with instructions.
 
 --Each module is designed to teach a new concept and assess your understanding by uploading your results to the repository.
 
