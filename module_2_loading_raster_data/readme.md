@@ -2,6 +2,9 @@
 
 # Learning objectives:
 - Create a new python environment
+- Running python scripts you didnt author
+- Modify python scripts you didnt author to fit your needs
+- Writing python code to transform raster data to a new coordinate reference system
 - Create a new STAC catalog
 - Loading raster data to STAC
 - Creating a STAC collection
