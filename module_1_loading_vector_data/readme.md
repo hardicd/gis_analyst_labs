@@ -18,7 +18,7 @@
 2. Install QGIS
     https://www.qgis.org/download/
 
-3. Create a new python environment and install the required packages: geopandas, sqlalchemy, psycopg2-binary
+3. Create a new python environment and install the required packages: geopandas, sqlalchemy, psycopg2-binary, psycopg2
 
 4. Download .gpkg file from https://zenodo.org/records/13259749/files/OGIM_v2.5.1.gpkg?download=1 of Oil & Gas locations
 
