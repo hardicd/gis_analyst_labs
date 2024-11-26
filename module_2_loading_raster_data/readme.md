@@ -1,4 +1,4 @@
-# Title of the lab
+# loading raster data
 
 # Learning objectives:
 - Create a new python environment
