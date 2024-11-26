@@ -4,6 +4,9 @@
 - NASA Earthsearch 
 - QGIS geoprocessing tools
 - Raster symbology
+- Creating your own raster datasets
+- Exporting raster data to GeoTiff from QGIS
+- Exporting raster data to STAC
 
 # Lab 3 instructions:
 1. Register for an Earthdata account if you don't have one already at: https://urs.earthdata.nasa.gov/users/new
