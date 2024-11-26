@@ -9,7 +9,7 @@ DB_HOST = "localhost"
 DB_PORT = "5432"
 
 # function to load the data to postgres
-def load_wells_to_postgres():
+def load_pipelines_to_postgres():
     # Read the filtered GeoPackage data
     gdf = gpd.read_file(
         "/Users/philipahrens/Downloads/OGIM_v2.5.1.gpkg",
