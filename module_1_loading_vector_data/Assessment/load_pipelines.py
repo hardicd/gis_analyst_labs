@@ -15,7 +15,7 @@ def load_pipelines_to_postgres():
         "/Users/philipahrens/Downloads/OGIM_v2.5.1.gpkg",
         layer='Oil_Natural_Gas_Pipelines', # layer name
         mask=None,
-        where="STATE_PROV = 'NEW MEXICO'" # filter criteria
+        where="STATE_PROV = 'NEW MEXICO'" # filter criteria, only New Mexico
     )
 
     # Create PostgreSQL connection
