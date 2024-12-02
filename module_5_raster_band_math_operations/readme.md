@@ -56,6 +56,7 @@ https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/HLSS30.020/HLS.S30
 5. Center you map on Humble Texas and take a screenshot of the map using a different color than the example screenshot below. You have created a change detection map of north Houston area between 2019 and 2024.
 ![QGIS final map](map.png)
 # Assessment:
+Save the clipped methane raster GeoTiff as a rendered image to the assessment folder.
 
 Copy the screenshots of the change detection map to the assessment folder.
 
