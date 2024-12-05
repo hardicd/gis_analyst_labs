@@ -172,7 +172,8 @@ print("Shapefile created:", output_shp)
 2. Take a screen shot of the output shapefile plotted in QGIS.
 3. Now that you have an example of how to generate a shapefile from a well survey dataset, you can use this script to generate shapefiles for other well surveys.
 4. Download https://github.com/agilescientific/welly/blob/facad6342ad6b18dbabf89ce67ec345187765bdd/tutorial/data/P-130_deviation_survey.csv and generate a shapefile from this dataset following the same logic as above.
-5. Take a screenshot of the output shapefile plotted in QGIS.
+5. This files does not have the same columns as the first .csv so you'll have to modify the script to adapt to this. You'll also need to assume a surface location of (-103.56732, 32.257778) Good Luck :)
+6. Take a screenshot of the output shapefile plotted in QGIS.
 
 # Assessment:
 
