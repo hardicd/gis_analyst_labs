@@ -1,7 +1,7 @@
 # Working with Well Surveys
 
 # Learning objectives:
-- Well Survey Fundam entals
+- Well Survey Fundamentals
 - Inclination and Azimuth
 - Measured Depth (MD) and True Vertical Depth (TVD)
 - Subsea True Vertical Depth (SSTVD)
@@ -101,7 +101,7 @@ This is a top down view of the well path. The well path is shown in red. The sur
 
 
 
-## Part 2: ...
+## Part 2: 
 
 1. We're going to now work with a real well survey dataset in Python. The dataset is in CSV format.
 2. Change the input in the script below to use [colorado_400844163_directional.csv](colorado_400844163_directional.csv)  
