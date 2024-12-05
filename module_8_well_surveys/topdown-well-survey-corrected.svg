@@ -1,0 +1,72 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Grid -->
+    <defs>
+        <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+            <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#eee" stroke-width="1"/>
+        </pattern>
+    </defs>
+    <rect width="600" height="600" fill="url(#grid)"/>
+    
+    <!-- Axes -->
+    <line x1="50" y1="550" x2="550" y2="550" stroke="#000" stroke-width="2"/>
+    <line x1="50" y1="550" x2="50" y2="50" stroke="#000" stroke-width="2"/>
+    
+    <!-- Axis Labels -->
+    <text x="560" y="555" fill="#000">Easting (ft)</text>
+    <text x="30" y="40" fill="#000">Northing (ft)</text>
+    
+    <!-- Scale Markers - Easting -->
+    <g>
+        <line x1="150" y1="545" x2="150" y2="555" stroke="#000" stroke-width="2"/>
+        <text x="140" y="570" fill="#000">500</text>
+        <line x1="250" y1="545" x2="250" y2="555" stroke="#000" stroke-width="2"/>
+        <text x="240" y="570" fill="#000">1000</text>
+        <line x1="350" y1="545" x2="350" y2="555" stroke="#000" stroke-width="2"/>
+        <text x="340" y="570" fill="#000">1500</text>
+        <line x1="450" y1="545" x2="450" y2="555" stroke="#000" stroke-width="2"/>
+        <text x="440" y="570" fill="#000">2000</text>
+    </g>
+    
+    <!-- Scale Markers - Northing -->
+    <g>
+        <line x1="45" y1="450" x2="55" y2="450" stroke="#000" stroke-width="2"/>
+        <text x="20" y="455" fill="#000">500</text>
+        <line x1="45" y1="350" x2="55" y2="350" stroke="#000" stroke-width="2"/>
+        <text x="15" y="355" fill="#000">1000</text>
+        <line x1="45" y1="250" x2="55" y2="250" stroke="#000" stroke-width="2"/>
+        <text x="15" y="255" fill="#000">1500</text>
+        <line x1="45" y1="150" x2="55" y2="150" stroke="#000" stroke-width="2"/>
+        <text x="15" y="155" fill="#000">2000</text>
+    </g>
+    
+    <!-- Well Path -->
+    <path d="M50 550 Q150 450 250 350 T450 150" 
+          fill="none" stroke="#ff0000" stroke-width="3"/>
+    
+    <!-- Surface Location -->
+    <circle cx="50" cy="550" r="5" fill="#000"/>
+    <text x="30" y="540" fill="#000">Surface Location</text>
+    
+    <!-- Survey Points with Coordinates -->
+    <g>
+        <!-- Point 1 -->
+        <circle cx="150" cy="450" r="4" fill="#0000ff"/>
+        <text x="160" y="440" fill="#0000ff">N: 500' E: 500'</text>
+        
+        <!-- Point 2 -->
+        <circle cx="250" cy="350" r="4" fill="#0000ff"/>
+        <text x="260" y="340" fill="#0000ff">N: 1000' E: 1000'</text>
+        
+        <!-- Point 3 -->
+        <circle cx="350" cy="250" r="4" fill="#0000ff"/>
+        <text x="360" y="240" fill="#0000ff">N: 1500' E: 1500'</text>
+        
+        <!-- TD Point -->
+        <circle cx="450" cy="150" r="4" fill="#0000ff"/>
+        <text x="460" y="140" fill="#0000ff">TD N: 2000' E: 2000'</text>
+    </g>
+    
+    <!-- North Arrow -->
+    <path d="M530 80 L550 50 L570 80 Z" fill="#000"/>
+    <text x="540" y="95" fill="#000">N</text>
+</svg>
