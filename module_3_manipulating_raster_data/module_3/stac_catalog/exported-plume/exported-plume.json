@@ -1,0 +1,60 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "exported-plume",
+  "properties": {
+    "datetime": "2025-02-11T11:20:06.153647Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -103.872506713,
+          32.045618193
+        ],
+        [
+          -103.872506713,
+          32.057005076
+        ],
+        [
+          -103.853528575,
+          32.057005076
+        ],
+        [
+          -103.853528575,
+          32.045618193
+        ],
+        [
+          -103.872506713,
+          32.045618193
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "../../exported_plume.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    -103.872506713,
+    32.045618193,
+    -103.853528575,
+    32.057005076
+  ],
+  "stac_extensions": []
+}

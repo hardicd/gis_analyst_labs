@@ -1,0 +1,18 @@
+{
+  "type": "Catalog",
+  "id": "local-catalog",
+  "stac_version": "1.0.0",
+  "description": "This catalog contains a single local raster file.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./exported-plume/exported-plume.json",
+      "type": "application/json"
+    }
+  ]
+}
